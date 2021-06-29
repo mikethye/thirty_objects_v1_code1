@@ -4,12 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Thirty Objects</title>
 </head>
 <body>
     <div>
-        
+        <img class="tologo" id="tologo" src="/images/Asset 6.svg" alt="tologo">
+        <img class="roundlogo" src="/images/Asset 7.svg" alt="roundlogo">
     </div>
-    
+    <div> 
+        <h1 class="headline">
+            THIRTY OBJECTS    VOLUME 01  S/S 2021
+        </h1>
+    </div>
+    <div>
+        <p>
+            DIGITAL PRINT ON NEWSPRINT 216MM x 279MM
+            <br>
+            <br>
+            THIRTY OBJECTS IS A PUBLICATION DEDICATED TO SHOWCASING THE VISUAL AND LITERARY ARTS. THE INAUGURAL ISSUE IS COMPRISED OF WORKS SOURCED FROM THE PUBLIC DOMAIN SPANNING THE 16TH THROUGH 20TH CENTURIES. INFORMATION ON OBTAINING A PRINTED COPY OR CONTRIBUTING TO FUTURE ISSUES CAN BE OBTAINED BY EMAIL
+            <a href="mailto:thirtyobjects@gmail.com">HERE</a>
+        </p>
+    </div>
+
+    <div>
+        <img class="images" src="images/thirty_objects_v1_spread.jpg" alt="spread">
+        <img class="images" src="images/Untitled-1.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_01.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_02.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_03.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_04.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_05.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_06.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_07.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_08.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_09.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_10.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_11.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_12.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_13.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_14.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_15.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_16.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_17.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_18.jpg" alt="spread">
+        <img class="images" src="images/thirty_objects_v1_spread_sm_19.jpg" alt="spread">
+    </div>
+
+
+    <footer class="footer">THIRTY OBJECTS &nbsp;&nbsp;&nbsp; MMXXI &nbsp;&nbsp;&nbsp;  MIKE THYE</footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/MotionPathPlugin.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/TextPlugin.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollToPlugin.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <script>
+        document.getElementsByClassName('tologo').addEventListener('load',function() {
+            Gsap.to('.tologo', 2, {scaleY: 1, height: '25vh'})
+        })
+    </script>
+
+
+
 </body>
 </html>
